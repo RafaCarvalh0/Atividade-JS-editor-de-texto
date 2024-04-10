@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="originalText" placeholder="Insira o texto original"></textarea>
+        <textarea id="prohibitedWords" placeholder="Palavras Proibidas (separadas por vírgula)"></textarea>
+        <textarea id="synonyms" placeholder="Sinônimos (separados por vírgula)"></textarea>
+        <select id="options">
+            <option value="keepOriginal" selected>Manter texto original</option>
+            <option value="removeProhibited">Remover palavras proibidas</option>
+            <option value="replaceProhibited">Substituir palavras proibidas por sinônimos</option>
+        </select>
+        <button id="changeText">Alterar Texto</button>
+        <button id="clearFields">Limpar</button>
+        <div id="resultLabel"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

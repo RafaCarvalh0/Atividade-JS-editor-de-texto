@@ -1,0 +1,30 @@
+/* Estilos para o contêiner principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Estilos para elementos de entrada: textarea, select e botão */
+textarea,
+select,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a etiqueta de resultado */
+#resultLabel {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para palavras proibidas destacadas em vermelho */
+.highlight {
+    color: red;
+}
+
+/* Estilos para palavras substituídas destacadas em verde */
+.substitute {
+    color: green;
+}
